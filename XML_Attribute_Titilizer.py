@@ -81,7 +81,7 @@ def find_all(a_str, sub, start=0):
         start += len(sub)
 
 def rewrite_abbreviations(text):
-    abbreviations = ["Http","Api", "Json", "Vm", "Db", "Rest", "Dgc", "Etl", "Tvc", "Csv", "Xml", "Url", "Sql", "Ssas"]
+    abbreviations = ["Http","Api", "Json", "Vm", "Db", "Rest", "Etl", "Csv", "Xml", "Url", "Sql"]
     #to_return = copy.deepcopy(text)
     #for word in text:
     #    for an_abbreviation in abbreviations:
